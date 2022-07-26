@@ -15,8 +15,8 @@ public class TC01 {
 		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");				
 		driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
-		driver.findElement(By.id("email")).sendKeys("name");
-		driver.findElement(By.id("pass")).sendKeys("build");
+		driver.findElement(By.id("email")).sendKeys("nasdsdsdme");
+		driver.findElement(By.id("pass")).sendKeys("buisdsdsdld");
 				
 	}
 	
